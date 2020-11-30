@@ -10,3 +10,11 @@ index = 0
 for i in data.columns:
     print(str(index) + ".  " + i)
     index = index + 1
+    
+print()
+print("The range of values and their distributions.")
+
+for i in data.columns:
+    print("Column: " + i + " - MAX: " + str(data[i].max())
+          + ", MIN: " + str(data[i].min()))
+    
