@@ -18,3 +18,10 @@ for i in data.columns:
     print("Column: " + i + " - MAX: " + str(data[i].max())
           + ", MIN: " + str(data[i].min()))
     
+print()
+
+row = data.head(1)
+
+for x in data.columns:
+    print(x)
+    print(row[x][0])
